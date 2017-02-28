@@ -1,0 +1,1 @@
+$(".pics").hide("slow","linear");
