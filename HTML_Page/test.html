@@ -21,14 +21,21 @@
 		</div>
 		<!-- navigation bar end -->
 	</header>
-	<div class = "main-div">
-		<p class = "main-div-article">我的文章</p>
-	    <div id = "main-picture" class = "main-article-img">
-			<img class="pics" src="./pics/al.jpeg">
-			<img class="pics" src="./pics/timg.jpg" hidden="true">
-			<img class="pics" src="./pics/ubantu.jpg" hidden="true">
-	    </div>
-	</div>
+    <p id="article">我的文章</p>
+	<div id="container" > 
+    	<div id="list">
+        	<img src="./pics/3.jpg" alt="1"/>
+       	    <img src="./pics/1.jpeg" alt="2"/>
+        	<img src="./pics/2.jpg" alt="3"/>
+        </div>
+        <div id="pic-button">
+        	<span index="1" class="on"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+        </div>
+        <a href="javascript:;" id="prev" class="arrow"><</a>
+        <a href="javascript:;" id="next" class="arrow">></a>
+    </div>
 	<script type="text/javascript" src = "./offical.js">
 	</script>
 </body>
