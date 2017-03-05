@@ -58,11 +58,12 @@ a{
 	font-family: arial ,georgia , verdana , helvetica;
 }
 .nav-span-welcome{
-	position:absolute;
+	position:relative;
 	float:left;
 	padding-left:300px;
 	font-size: 30px;
-	font-family: georgia;
+	bottom:4px;
+	font-family: arial ,georgia , verdana , helvetica;
 }
 #article{
 	margin-top:15px;
@@ -109,6 +110,9 @@ a{
 #container:hover .arrow{
 	display:block;
 }
+#container:hover #pic-button span{
+	display:block;
+}
 #prev{
 	left:20px;
 }
@@ -132,6 +136,7 @@ a{
 	border-radius:50%;
 	background:#000;
 	margin-left:5px;
+	display:none;
 }
 #pic-button .on{
 	background:rgba(247,3,7,1.00);
